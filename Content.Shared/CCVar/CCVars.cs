@@ -221,7 +221,7 @@ namespace Content.Shared.CCVar
         /// If roles should be restricted based on time.
         /// </summary>
         public static readonly CVarDef<bool>
-            GameRoleTimers = CVarDef.Create("game.role_timers", true, CVar.SERVER | CVar.REPLICATED);
+            GameRoleTimers = CVarDef.Create("game.role_timers", false, CVar.SERVER | CVar.REPLICATED);
 
         /// <summary>
         /// Whether or not disconnecting inside of a cryopod should remove the character or just store them until they reconnect.
@@ -246,7 +246,7 @@ namespace Content.Shared.CCVar
         ///     Whether a random rotation will be applied to the station on roundstart.
         /// </summary>
         public static readonly CVarDef<bool> StationRotation =
-            CVarDef.Create("game.station_rotation", true);
+            CVarDef.Create("game.station_rotation", false);
 
         /// <summary>
         ///     When enabled, guests will be assigned permanent UIDs and will have their preferences stored.

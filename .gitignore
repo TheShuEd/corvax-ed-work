@@ -312,3 +312,23 @@ Resources/MapImages
 
 # Direnv stuff
 .direnv/
+/ed-station-14/.envrc
+/ed-station-14/.gitattributes
+/ed-station-14/.gitignore
+/ed-station-14/.gitmodules
+/ed-station-14/Directory.Packages.props
+/ed-station-14/LICENSE.TXT
+/ed-station-14/README.md
+/ed-station-14/RUN_THIS.py
+/ed-station-14/SECURITY.md
+/ed-station-14/SpaceStation14.sln
+/ed-station-14/SpaceStation14.sln.DotSettings
+/ed-station-14/bors.toml
+/ed-station-14/flake.lock
+/ed-station-14/flake.nix
+/ed-station-14/global.json
+/ed-station-14/nuget.config
+/ed-station-14/omnisharp.json
+/ed-station-14/runclient.bat
+/ed-station-14/runserver.bat
+/ed-station-14/shell.nix
